@@ -17,6 +17,7 @@
   <script src="../assets/js/react.min.js"></script>
   <script src="../assets/js/widgets/color/react-color.min.js"></script>
   <script src="../assets/js/widgets/color/color.min.js"></script>
+  
   <script>
     CMS.registerWidget('color', NetlifyCMSWidgetColor.Control);
   </script>
@@ -263,7 +264,19 @@
 
     CMS.registerPreviewTemplate('pages', PagePreview);
   </script>
-
+  
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+  </script>
+  
   <!-- Register Image component -->
   <!-- It's not possible to create this element just yet. There are two things needed in order to do so: -->
   <!-- 1) Jekyll needs to update kramdown version up to 2.1.0, so we can use the :standlone feature with <figure></figure> -->
