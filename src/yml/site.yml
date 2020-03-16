@@ -1,12 +1,11 @@
-name: Diego
-title: Coflow
-description: Diegofornalha
+name: Game
+title: FreeRacingGame
+description: MyFreeRacingGame
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - game
+  - freegame
+  - reacinggame
+  - reacingincar
 show_hero: true
 menu:
   - title: Home
@@ -17,5 +16,5 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@xyz.com
+email: wangxiaohua12580@gmail.com
 disqus_username: disqus_username
