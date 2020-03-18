@@ -8,7 +8,7 @@ description: >-
 image: /assets/img/uploads/sleek.jpg
 optimized_image: >-
   https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png
-category: travel
+category: racing game
 tags:
   - Games
   - Racing
