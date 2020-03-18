@@ -1,134 +1,56 @@
 ---
 date: 2019-05-12T19:17:18.000Z
 layout: post
-title: Far far away behind the word mountains
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: Driving Simulator Racing car
+subtitle: 'Racing car game! Attractive and satisfying traffic escape experience!'
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  Racing car game! Attractive and satisfying traffic escape experience!
 image: /assets/img/uploads/sleek.jpg
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821648/theme5_wmutla.jpg
+  https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png
 category: travel
 tags:
-  - mountains
-  - travel
-  - adventure
+  - Games
+  - Racing
+  - Free
+  - Mobile
 author: thiagorossener
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+[![game01install.png](https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png)](https://myfreegame.github.io/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+##   **ABOUT THE GAME:**
+Racing car game! Attractive and satisfying traffic escape experience! 
+Rich road environment. Start the game, through endless busy roads and highways, be careful! High-speed cars are everywhere on roads and highways. They can interfere with you! Only the best racing drivers can avoid all the cars on the road perfectly.Make sure your skills meet all the challenges. On asphalt pavement, endless traffic racing cars. Each model will be a new experience. Every place has its own atmosphere and feeling. Facing complex road traffic in a perfect environment, become a real racing driver!High performance racing car. Go to the garage and choose a high-performance racing car. Adjust the vehicle and customize its appearance. Choose your favorite body color. Give your car your own style. Making cars by adjusting their appearance.
+Avoid traffic. Play endless games on the road to release yourself. Break the rules, challenge the speed and win.
+Rich road environment. Traffic highways set new standards for traffic racing. Enjoy impressive graphics and experience high-speed racing! This will be an interesting and compelling game we promise! 
+## Racing car driving 3D function:
+- Lifelike game scenes
+- Show your driving skills and face challenges
+ 
+- Some cool and high-quality cars
+ 
+- Adjust your vehicle to your preferences
+ 
+- Amazing music and sound effects
+ 
+- Enjoy extremely colorful and exciting visual effects
+ 
+- Enjoy fast traffic racing</font>
 
---page-break--
 
-## Inline HTML elements
+##   Screen Shots:
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+![](https://i.loli.net/2020/03/14/RhDJbUp42ixnM1s.jpg)
+![](https://i.loli.net/2020/03/14/6qzdy3GZihmaP7H.jpg)
+![](https://i.loli.net/2020/03/14/T1s5dJhAyIrV8Kp.jpg)
+![](https://i.loli.net/2020/03/14/MsmRI4TSpBhqUuy.jpg)
 
-* **To bold text**, use `<strong>`.
-* _To italicize text_, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+Racing car game! Attractive and satisfying traffic escape experience!
+ 
+ 
+FreeRacingGame
+ 
+2020年3月14日
 
-Most of these elements are styled by browsers with few modifications on our part.
-
---page-break--
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
