@@ -7,7 +7,7 @@ description: >-
   Racing car game! Attractive and satisfying traffic escape experience!
 image: /assets/img/uploads/sleek.jpg
 optimized_image: >-
-  /assets/img/game01install.webp
+  https://littlebeegame.top/assets/img/game01install.webp
 category: racing game
 tags:
   - Games
