@@ -1,13 +1,13 @@
 ---
 date: 2019-05-12T19:17:18.000Z
 layout: post
-title: Driving Simulator Racing car
+title: Driving Simulator Racing car2
 subtitle: 'Racing car game! Attractive and satisfying traffic escape experience!'
 description: >-
   Racing car game! Attractive and satisfying traffic escape experience!
 image: /assets/img/uploads/sleek.jpg
 optimized_image: >-
-  https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png
+  /assets/img/game01install.webp
 category: racing game
 tags:
   - Games
@@ -18,7 +18,7 @@ author: thiagorossener
 paginate: true
 ---
 
-[![game01install.png](https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png)](https://myfreegame.github.io/download/com.HighwayRacingInCar.FreeRacingGame.apk)
+[![game01install.png](https://littlebeegame.top/assets/img/game01install.webp)](https://littlebeegame.top/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
 ##   **ABOUT THE GAME:**
 Racing car game! Attractive and satisfying traffic escape experience! 
