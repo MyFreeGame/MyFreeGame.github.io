@@ -18,7 +18,7 @@ author: thiagorossener
 paginate: true
 ---
 
-[![game01install.png](https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png)](https://myfreegame.github.io/download/com.HighwayRacingInCar.FreeRacingGame.apk)
+[![game01install.png](https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png)](https://littlebeegame.top/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
 ##   **ABOUT THE GAME:**
 Racing car game! Attractive and satisfying traffic escape experience! 
