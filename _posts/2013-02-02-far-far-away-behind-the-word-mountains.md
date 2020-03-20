@@ -7,7 +7,7 @@ description: >-
   Racing car game! Attractive and satisfying traffic escape experience!
 image: /assets/img/uploads/sleek.jpg
 optimized_image: >-
-  https://i.loli.net/2020/03/15/LdulUvDsmta1TGq.png
+   /assets/img/game01install.webp
 category: racing game
 tags:
   - Games
