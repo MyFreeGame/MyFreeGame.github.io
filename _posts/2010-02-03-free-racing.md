@@ -1,7 +1,7 @@
 ---
-date: 2019-05-12T19:17:18.000Z
+date: 2019-06-12T19:17:18.000Z
 layout: post
-title: Driving Simulator Racing car
+title: Driving Simulator Racing car3
 subtitle: 'Racing car game! Attractive and satisfying traffic escape experience!'
 description: >-
   Racing car game! Attractive and satisfying traffic escape experience!
@@ -37,7 +37,7 @@ Rich road environment. Traffic highways set new standards for traffic racing. En
  
 - Enjoy extremely colorful and exciting visual effects
  
-- Enjoy fast traffic racing</font>
+- Enjoy fast traffic racing
 
 
 ##   Screen Shots:
