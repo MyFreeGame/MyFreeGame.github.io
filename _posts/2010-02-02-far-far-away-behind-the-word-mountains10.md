@@ -1,13 +1,13 @@
 ---
 date: 2019-05-12T19:12:18.000Z
 layout: post
-title: Driving Simulator Racing car2
+title: Driving Simulator Racing car210
 subtitle: 'Racing car game! Attractive and satisfying traffic escape experience!'
 description: >-
   Racing car game! Attractive and satisfying traffic escape experience!
 image: /assets/img/uploads/sleek.jpg
 optimized_image: >-
-  https://game123.co/assets/img/uploads/game01install2.webp
+  https://game123.co/assets/img/uploads/game01install3.png
 category: racing game
 tags:
   - Games
