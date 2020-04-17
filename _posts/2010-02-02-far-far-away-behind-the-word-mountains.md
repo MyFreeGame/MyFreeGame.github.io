@@ -18,26 +18,27 @@ author: thiagorossener
 paginate: true
 ---
 
-[![game01install.png](https://littlebeegame.top/assets/img/uploads/game01install.webp)](https://littlebeegame.top/download/com.HighwayRacingInCar.FreeRacingGame.apk)
+[![game01install.png](https://game123.co/assets/img/uploads/game01install.webp)](https://game123.co/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
 ##   **ABOUT THE GAME:**
 Racing car game! Attractive and satisfying traffic escape experience! 
-Rich road environment. Start the game, through endless busy roads and highways, be careful! High-speed cars are everywhere on roads and highways. They can interfere with you! Only the best racing drivers can avoid all the cars on the road perfectly.Make sure your skills meet all the challenges. On asphalt pavement, endless traffic racing cars. Each model will be a new experience. Every place has its own atmosphere and feeling. Facing complex road traffic in a perfect environment, become a real racing driver!High performance racing car. Go to the garage and choose a high-performance racing car. Adjust the vehicle and customize its appearance. Choose your favorite body color. Give your car your own style. Making cars by adjusting their appearance.
+Rich road environment. Start the game, through endless busy roads and highways, be careful! High-speed cars are everywhere on roads and highways. They can interfere with you! Only the best racing drivers can avoid all the cars on the road perfectly. Make sure your skills meet all the challenges. On asphalt pavement, endless traffic racing cars. Each model will be a new experience. Every place has its own atmosphere and feeling. Facing complex road traffic in a perfect environment, become a real racing driver!High performance racing car. Go to the garage and choose a high-performance racing car. Adjust the vehicle and customize its appearance. Choose your favorite body color. Give your car your own style. Making cars by adjusting their appearance.
 Avoid traffic. Play endless games on the road to release yourself. Break the rules, challenge the speed and win.
 Rich road environment. Traffic highways set new standards for traffic racing. Enjoy impressive graphics and experience high-speed racing! This will be an interesting and compelling game we promise! 
+
 ## Racing car driving 3D function:
 - Lifelike game scenes
 - Show your driving skills and face challenges
- 
+
 - Some cool and high-quality cars
- 
+
 - Adjust your vehicle to your preferences
- 
+
 - Amazing music and sound effects
- 
+
 - Enjoy extremely colorful and exciting visual effects
- 
-- Enjoy fast traffic racing</font>
+
+- Enjoy fast traffic racing 
 
 
 ##   Screen Shots:
@@ -48,9 +49,9 @@ Rich road environment. Traffic highways set new standards for traffic racing. En
 ![](https://i.loli.net/2020/03/14/MsmRI4TSpBhqUuy.jpg)
 
 Racing car game! Attractive and satisfying traffic escape experience!
- 
- 
-FreeRacingGame
- 
-2020年3月14日
+
+
+​                                                                   *FreeRacingGame*
+
+​                                                                    *2020年3月14日*
 
