@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://app.dierna.com/EJzy -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta itemprop="name" content="第八区">
+    <meta itemprop="image" content="//static.dibaqu.com/77b610bb010673fa1cb257831b06e15d.png?1590114275&amp;imageMogr2/thumbnail/300x300!">
+    <meta name="description" itemprop="description" content="第八区为开发者提供测试应用极速发布，应用崩溃实时分析、用户反馈收集等一系列开发测试效率工具服务，帮助开发者将更多精力放在产品的开发与应用的优化上">
+    <link rel="stylesheet" href="./达叔传奇BT_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/style.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/custom.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/appstyle.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/swiper.min.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/font_780494_9oilb5iic5f.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/base.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/main.css">
+    <link rel="stylesheet" href="./达叔传奇BT_files/h5.css">
+    <link rel="shortcut icon" href="https://spic.dibaqu.com/favicon.ico?t=202005018175" type="image/x-icon">
+<script src="./达叔传奇BT_files/osd.js"></script><script src="./达叔传奇BT_files/f.txt"></script><script src="./达叔传奇BT_files/f(1).txt" id="google_shimpl"></script><script src="./达叔传奇BT_files/hm.js"></script><script>
+    var www_domain = "http://app.dierna.com/";
+</script><style>
+    .xuanfutishi span {
+        float: left;
+        padding-left: 15px;
+    }
+
+    .xuanfutishi img {
+        float: right;
+        height: 15px;
+        margin: 12px 15px 0 0;
+        width: 15px;
+    }
+
+    .appicon {
+        border: 1px solid #ddd;
+        border-radius: 24px;
+        height: 120px;
+        width: 120px;
+    }
+
+    .appicon2 {
+        border: 1px solid #fff;
+        border-radius: 24px;
+        height: 140px;
+        width: 140px;
+    }
+
+    #codeico {
+        background-color: #efefef;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        margin: 77px;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .one-key-report {
+        background-color: #32b2a7;
+        color: #fff;
+        margin-top: -5px;
+        padding: 5px 10px;
+    }
+
+    .one-key-report-dialog {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        left: 50%;
+        margin-left: -225px;
+        margin-top: -275px;
+        padding: 20px;
+        position: fixed;
+        top: 50%;
+        width: 450px;
+        z-index: 99999;
+    }
+
+    .one-key-report-dialog .dialog-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .one-key-report-dialog .dialog-close i.icon-close {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .one-key-report-dialog .dialog-close i.icon-close:hover {
+        color: #333;
+    }
+
+    .one-key-report-dialog .dialog-close .icon-return {
+        color: #32b2a7;
+        display: none;
+    }
+
+    .one-key-report-dialog .custom-checkbox {
+        cursor: pointer;
+        display: inline-block;
+        line-height: 24px;
+        margin-right: 40px;
+        padding: 2px 2px 2px 25px;
+        position: relative;
+        text-align: left;
+    }
+
+    .one-key-report-dialog .custom-checkbox:last-child {
+        margin-right: 0;
+    }
+
+    .one-key-report-dialog .custom-checkbox::after, .one-key-report-dialog .custom-checkbox::before {
+        content: " ";
+        display: block;
+        position: absolute;
+    }
+
+    .one-key-report-dialog .custom-checkbox::after {
+        background-color: #1989fa;
+        border-radius: 10px;
+        display: none;
+        height: 10px;
+        left: 1px;
+        top: 7px;
+        width: 10px;
+    }
+
+    .one-key-report-dialog .custom-checkbox::before {
+        background-color: #fff;
+        border: 1px solid #1989fa;
+        border-radius: 12px;
+        height: 12px;
+        left: 0;
+        top: 6px;
+        width: 12px;
+    }
+
+    .one-key-report-dialog .custom-checkbox.active::after {
+        display: block;
+    }
+
+    .one-key-report-dialog .content-row {
+        display: table;
+        padding: 10px 10px 5px;
+        position: relative;
+        width: 100%;
+    }
+
+    .one-key-report-dialog .content-row input, .one-key-report-dialog .content-row label {
+        display: inline-block;
+        float: left;
+    }
+
+    .one-key-report-dialog .content-row label {
+        font-size: 18px;
+        line-height: 34px;
+        margin-right: 30px;
+    }
+
+    .one-key-report-dialog .content-row input {
+        border: 1px solid #a9b1b3;
+        border-radius: 5px;
+        height: 34px;
+        outline: 0 none;
+        padding: 5px 10px;
+        width: 240px;
+    }
+
+    .one-key-report-dialog .content-row .checkbox-list {
+        clear: both;
+        padding: 5px 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    .one-key-report-dialog .content-row textarea {
+        border: 1px solid #a9b1b3;
+        border-radius: 10px;
+        color: #a9b1b3;
+        font-size: 16px;
+        height: 200px;
+        outline: 0 none;
+        padding: 10px;
+        resize: none;
+        width: 100%;
+    }
+
+    .one-key-report-dialog .content-row .btn-report {
+        background-color: #32b2a7;
+        border-radius: 15px;
+        color: #fff;
+        float: right;
+        margin-top: -5px;
+        padding: 5px 10px;
+    }
+
+    .one-key-report-dialog .report-feedback, .one-key-report-dialog .report-form {
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+
+    .one-key-report-dialog .report-sending {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #000;
+        cursor: default;
+        display: none;
+        font-size: 20px;
+        height: 100%;
+        left: 0;
+        line-height: 450px;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .one-key-report-dialog .report-form {
+        display: block;
+    }
+
+    .one-key-report-dialog .report-feedback {
+        cursor: default;
+        display: none;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks {
+        background-color: #efefef;
+        border-radius: 20px;
+        height: 160px;
+        margin: 50px auto 20px;
+        width: 160px;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .brace-content {
+        color: #000;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+        width: 110px;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .thanks {
+        color: #000;
+        cursor: default;
+        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        margin: 15px 0 0;
+        min-height: 22px;
+        text-align: center;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .face, .one-key-report-dialog .report-feedback .feedback-thanks .icon-brace-left, .one-key-report-dialog .report-feedback .feedback-thanks .icon-brace-right {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .icon-brace-left, .one-key-report-dialog .report-feedback .feedback-thanks .icon-brace-right {
+        font-size: 80px;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .face .icon-comma-eye {
+        font-size: 22px;
+        margin: 0 4px;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .face .icon-comma-eye.right {
+        display: inline-block;
+        margin-left: 16px;
+        transform: scaleY(0.5);
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-thanks .face .icon-mouth {
+        display: block;
+        margin-top: 15px;
+        transform: rotateZ(-19deg) translateX(2px);
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-message {
+        color: #1989fa;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .one-key-report-dialog .report-feedback .feedback-content {
+        color: #858585;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .one-key-report-dialog .report-error {
+        color: red;
+        cursor: default;
+        line-height: 34px;
+        padding: 0 10px;
+    }
+
+    .one-key-report-dialog .report-error > div {
+        display: none;
+    }
+
+    .ad_section {
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 0;
+        left: 50%;
+        margin-left: -365px;
+    }
+
+    @media (max-width: 767px) {
+        .ad_section {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+
+    .floadAd {
+        position: absolute;
+        z-index: 999900;
+        display: none;
+    }
+
+    .floadAd .item {
+        display: block;
+    }
+
+    .floadAd .item img {
+        vertical-align: bottom;
+    }
+
+</style>
+    <title>达叔传奇BT</title>
+
+    
+    
+    <meta name="keywords" content="第八区,IPA签名,企业签名,iOS内测,Android内测,app打包封装">
+    <meta name="description" content="第八区为开发者提供测试应用极速发布，应用崩溃实时分析、用户反馈收集等一系列开发测试效率工具服务，帮助开发者将更多精力放在产品的开发与应用的优化上">
+    <link rel="shortcut icon" href="https://spic.dibaqu.com/favicon.ico" type="image/x-icon">
+    <meta name="baidu-site-verification" content="ukBKOPYfE2">
+    <meta name="baidu-site-verification" content="xSBa81fLpH">
+    <meta name="author" content="dibaqu.com">
+    <meta property="og:type" content="webpage">
+    <meta property="og:url" content="https://www.dibaqu.com/EJzy">
+    <meta property="og:title" content="达叔传奇BT">
+    <meta property="og:description" content="达叔传奇BT">
+    <meta itemprop="name" content="达叔传奇BT">
+    <meta itemprop="image" content="//static.dibaqu.com/77b610bb010673fa1cb257831b06e15d.png?1590114275&amp;imageMogr2/thumbnail/300x300!">
+    <meta name="description" itemprop="description" content="版本：1.0.0., 大小：5.37M">
+    <meta name="apple-mobile-web-app-title" content="https://www.dibaqu.com/EJzy">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="preload" href="./达叔传奇BT_files/f(2).txt" as="script"><script type="text/javascript" src="./达叔传奇BT_files/f(2).txt"></script><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script><input type="hidden" id="________________________________i_____________________"></head>
+
+
+<body class="" style="padding-top: 0px;">
+
+<input name="url" value="EJzy" type="hidden">
+<script type="text/template" id="title">
+    <title>{{app_name}}</title>
+</script>
+<script language="text/template" id="meta">
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="description" content="{{desciption}}">
+    <link rel="shortcut icon" href="//spic.dibaqu.com/favicon.ico" type="image/x-icon"/>
+    <meta name="baidu-site-verification" content="ukBKOPYfE2"/>
+    <meta name="baidu-site-verification" content="xSBa81fLpH"/>
+    <meta name="author" content="dibaqu.com">
+    <meta property="og:type" content="webpage">
+    <meta property="og:url" content="{{web_url}}">
+    <meta property="og:title" content="{{app_name}}">
+    <meta property="og:description" content="{{app_name}}">
+    <meta itemprop="name" content="{{app_name}}" />
+    <meta itemprop="image" content="{{icon_300}}" />
+    <meta name="description" itemprop="description" content="版本：{{version}}.{{version_code}}, 大小：{{app_size}}">
+    <meta name="apple-mobile-web-app-title" content="{{web_url}}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</script>   
+
+<!--底部-->
+
+
+<!--举报成功弹窗-->
+<div class="modal fade ms-modal" id="reportSuccess" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <div><span class="icon icon-modal-success2"></span></div>
+                    <p class="color-333 bold font16 mt5">{{REPORT_THANKS}}</p>
+                    <p class="color-333 mt5">{{REPORT_MESSAGE}}</p>
+                    <div class="mt15">
+                        <button type="button" class="ms-btn ms-btn-default w90" data-dismiss="modal">{{BUTTON_OK}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/举报成功弹窗-->
+
+
+<!--密码错误 3秒自动消失-->
+<div class="modal fade ms-modal auto-hide-modal" id="autoHideTemplateModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <div class="auto-hide">
+                        <div class="mt5">{{PASSWORD_WRONG}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/密码错误 3秒自动消失-->
+
+<style>
+    body{
+        padding-bottom: 10px;}
+</style>
+
+<script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?13c9c88be0e42e66514801a84c1c3c85";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script src="./达叔传奇BT_files/jquery.min.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/bootstrap_3.3.7.min.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/clipboard_1.7.1.min.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/markup.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/ua-parser.min.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/wave.js"></script>
+<script type="text/javascript" src="./达叔传奇BT_files/template.js"></script>
+
+<script language="text/template" id="copyright">
+    <div class="template-footer">
+        <div class="container">
+            <div class="t-footer">
+                <a href="javascript:;" onclick="DAFU.disclaimer()">{{DISCLAIMER}}</a> |
+                <a href="javascript:;" onclick="DAFU.reportApp()">{{REPORT}}</a>
+            </div>
+        </div>
+    </div>
+    <div id="weixin_ios" style="display:none">
+    <div class="click_opacity"></div>
+    <div class="to_btn">
+        {{GO_OUT_WECHAT_IOS_TIP}}
+    </div>
+</div>
+<div id="weixin_android" style="display: none">
+    <div class="click_opacity"></div>
+    <div class="to_btn">{{GO_OUT_WECHAT_TIP}}
+    </div>
+</div>
+
+
+<!--举报弹窗-->
+<div class="modal fade ms-modal" id="reportModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="report">
+                    <form action="" method="post">
+                        <div class="tit">{{REPORT_TITLE}}</div>
+                        <p>
+                            {{REPORT_TIPS}}
+                        </p>
+                        <div class="form-group">
+                            <label>{{REPORT_REASON_ERROR}}<span>*</span></label>
+                            <ul class="clearfix">
+                                <li>
+                                    <span class="icon icon-radio"></span>{{REPORT_DB}}
+                                    <input type="radio" class="hidden" value="0">
+                                </li>
+                                <li>
+                                    <span class="icon icon-radio"></span>{{REPORT_HS}}
+                                    <input type="radio" class="hidden" value="1">
+                                </li>
+                                <li>
+                                    <span class="icon icon-radio"></span>{{REPORT_QZ}}
+                                    <input type="radio" class="hidden" value="2">
+                                </li>
+                                <li>
+                                    <span class="icon icon-radio"></span>{{REPORT_OTHER}}
+                                    <input type="radio" class="hidden" value="3">
+                                </li>
+                            </ul>
+                            <div class="error">{{REPORT_REASON_ERROR}}</div>
+                        </div>
+                        <div class="form-group">
+                            <label>{{REPORT_REASON}}<span>*</span></label>
+                            <textarea class="form-control" rows="4" id="report-content"
+                                      placeholder="{{REPORT_CONTENT_PLACEHOLDER}}"></textarea>
+                            <div class="error">{{REPORT_CONTENT_ERROR}}</div>
+                        </div>
+                        <div class="form-group">
+                            <label>{{REPORT_EMAIL_PLACEHOLDER}}<span>*</span></label>
+                            <input type="text" class="form-control" name="email"
+                                   placeholder="{{REPORT_EMAIL_PLACEHOLDER}}" id="report-email">
+                            <div class="error">{{REPORT_EMAIL_ERROR}}</div>
+                        </div>
+                        <div class="btn-bottom">
+                            <button data-dismiss="modal" type="button" class="ms-btn color-hover">{{REPORT_RETUEN}}</button>
+                            <button type="button" class="ms-btn ms-btn-primary save">{{REPORT_BUTTON}}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/举报弹窗-->
+
+<!--免责声明-->
+<div class="modal fade ms-modal" id="disclaimer" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="report">
+                    {{DISCLAIMER_TEXT}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/免责声明-->
+
+<!---->
+<!--<div class="one-key-report-dialog" id="reportDialog" style="display: none">-->
+<!--    <div class="dialog-close" style="cursor:pointer;padding: 10px;z-index: 999999">-->
+<!--        <a class="icon-close glyphicon glyphicon-remove">关闭</a>-->
+<!--        <a class="icon-return">&lt;&nbsp;返回下载页</a></div>-->
+<!--    <div class="report-form" id="report-form">-->
+<!--        <div class="report-error" id="report-error">-->
+<!--            <div class="email-error" style="display: none;">{{REPORT_EMAIL_ERROR}}</div>-->
+<!--            <div class="type-error" style="display: none;">{{REPORT_REASON_ERROR}}</div>-->
+<!--            <div class="message-error" style="display: none;">{{REPORT_CONTENT_ERROR}}</div>-->
+<!--        </div>-->
+<!--        <div class="content-row">-->
+<!--            <label>{{REPORT_EMAIL}}</label>-->
+<!--            <input placeholder="{{REPORT_EMAIL_PLACEHOLDER}}" id="report-email" type="text"></div>-->
+<!--        <div class="content-row">-->
+<!--            <label>{{REPORT_REASON}}</label>-->
+<!--            <div class="checkbox-list" id="report-type">-->
+<!--                <div class="custom-checkbox">{{REPORT_DB}}</div>-->
+<!--                <div class="custom-checkbox">{{REPORT_HS}}</div>-->
+<!--                <div class="custom-checkbox">{{REPORT_QZ}}</div>-->
+<!--                <div class="custom-checkbox">{{REPORT_OTHER}}</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="content-row">-->
+<!--            <textarea id="report-content" placeholder="{{REPORT_CONTENT_PLACEHOLDER}}"></textarea>-->
+<!--        </div>-->
+<!--        <div class="content-row dialog-action">-->
+<!--            <button id="submit_report" class="btn btn-sm btn-success" style="float:right">{{REPORT_BUTTON}}</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="report-feedback" id="report-feedback" style="display: none;">-->
+<!--        <div class="feedback-thanks">-->
+<!--            <div class="brace-content">-->
+<!--                <i class="icon-brace-left"></i>-->
+<!--                <span class="face">-->
+<!--                    <i class="icon-comma-eye left"></i>-->
+<!--                    <i class="icon-comma-eye right"></i>-->
+<!--                    <i class="icon-mouth"></i>-->
+<!--                </span>-->
+<!--                <i class="icon-brace-right"></i>-->
+<!--            </div>-->
+<!--            <p class="thanks">Thanks</p></div>-->
+<!--        <div class="feedback-message">{{REPORT_THANKS}}</div>-->
+<!--        <div class="feedback-content">{{REPORT_MESSAGE}}</div>-->
+<!--    </div>-->
+<!--    <div class="report-sending" id="report-sending">{{REPORT_SENDING}}</div>-->
+<!--</div>--></script>
+<script>
+    function autoHideModal(obj1, time) {
+        var autoHide = null;
+        clearTimeout(autoHide);
+        $(obj1).modal('show');
+        $(".modal-backdrop").hide();
+        autoHide = setTimeout(function () {
+            $(obj1).modal("hide");
+        }, time);
+    }
+
+    // autoHideModal('#pwdModal', 3000);
+    var windowWidth = $(window).width();
+    if (windowWidth >= 768) {
+        $(".template-btn").click(function () {
+            $("#autoHideTemplateModal").find(".modal-dialog").removeClass("modal-sm").find(".auto-hide .mt5").text("请在手机上使用浏览器打开本页面，或者手机扫描页面二维码，即可安装");
+            autoHideModal('#autoHideTemplateModal', 3000);
+        });
+    }
+</script>
+
+
+
+            
+                <div class="t-bg-2"></div>
+                <div class="container">
+                    <div class="content">
+                        <div class="template-common">
+                            <div class="t-icon">
+                                <img src="./达叔传奇BT_files/77b610bb010673fa1cb257831b06e15d.png" class="img-responsive">
+                            </div>
+                            <div class="t-name">
+                                <div class="tit">达叔传奇BT</div>
+                                <div class="name-info pc-pwd">
+                                <span>版本 1.0.0
+                                        
+                                </span>
+                                    <span>大小 5.37M</span><span>更新时间 2020-05-22 10:24:35</span>
+                                </div>
+                            </div>
+                            
+                            <!--密码框-->
+                            <div class="template-pwd">
+                                <div class="form-group">
+                                    <label>请输入密码</label>
+                                    <input type="password" name="pwd" class="form-control">
+                                </div>
+                                <button type="button" class="ms-btn decoding" onclick="DAFU.submitPwd()">
+                                    立即进入
+                                </button>
+                                <div class="t-code">
+                                    <img src="./达叔传奇BT_files/qrcode" class="img-responsive">
+                                    <div class="code-text">扫描二维码下载</div>
+                                </div>
+                            </div>
+                            <!--/密码框-->
+                            
+                            
+                            <div id="showtext" style="text-align: center;margin-top:30px;display: none">
+                                <div style="color: #1abc9c">正在安装，请按 Home 键在桌面查看</div>
+                                <div class="loading"></div>
+                            </div>
+                            <div class="template-btn-wrap">
+                                <a href="https://www.dibaqu.com/show/download/512706974886920192?password=" link="https://www.dibaqu.com/show/download/512706974886920192?password=" type="ios" class="ms-btn template-btn clearfix pc-pwd down_load">
+                                    <span class="icon-36 iconfont fl"></span>
+                                    <span class="fl">
+                                    安卓安装
+                                </span>
+                                </a>
+                            </div>
+							<div class="template-btn-wrap">
+                                <a href="https://www.dibaqu.com/show/download/512706974886920192?password=" link="https://www.dibaqu.com/show/download/512706974886920192?password=" type="ios" class="ms-btn template-btn clearfix pc-pwd down_load">
+                                    <span class="icon-36 iconfont fl"></span>
+                                    <span class="fl">
+                                    苹果安装
+                                </span>
+                                </a>
+                            </div>
+							<div class="template-btn-wrap">
+                                <a href="https://www.dibaqu.com/show/download/512706974886920192?password=" link="https://www.dibaqu.com/show/download/512706974886920192?password=" type="ios" class="ms-btn template-btn clearfix pc-pwd down_load">
+                                    <span class="icon-36 iconfont fl"></span>
+                                    <span class="fl">
+                                    下载安装
+                                </span>
+                                </a>
+                            </div>
+                            <div class="t-apply pc-pwd">
+                                
+                                
+                                适用于安卓手机
+                                
+                                
+                            </div>
+                            
+                            <div class="t-code pc-pwd">
+                                <img src="./达叔传奇BT_files/qrcode" class="img-responsive">
+                                <div class="code-text">扫描二维码下载</div>
+                            </div>
+                            <hr class="pc-pwd">
+                            
+
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    <div class="template-footer" style="margin-bottom: 60px;">
+        <div class="container">
+            <div class="t-footer" style="display: none;">
+                <a href="javascript:;" onclick="DAFU.disclaimer()">免责声明</a> |
+                <a href="javascript:;" onclick="DAFU.reportApp()">举报</a>
+            </div>
+        </div>
+    </div>
+    <div id="weixin_ios" style="display:none">
+    <div class="click_opacity"></div>
+    <div class="to_btn">
+        <span class="span1">
+            <img src="./达叔传奇BT_files/click_btn.png">
+        </span>
+        <span class="span2">
+            <em>1</em> 点击右上角
+            <img src="./达叔传奇BT_files/menu.png">
+            打开菜单
+        </span>
+        <span class="span2">
+            <em>2</em> 选择
+            <img src="./达叔传奇BT_files/safari.png">
+            用Safari打开下载
+        </span>
+    </div>
+</div>
+<div id="weixin_android" style="display: none">
+    <div class="click_opacity"></div>
+    <div class="to_btn"><span class="span1">
+            <img src="./达叔传奇BT_files/click_btn.png">
+        </span>
+        <span class="span2">
+            <em>1</em> 点击右上角
+            <img src="./达叔传奇BT_files/menu_android.png">
+            打开菜单
+        </span>
+        <span class="span2 android_open">
+            <em>2</em> 选择
+            <img src="./达叔传奇BT_files/android.png">
+        </span>
+    </div>
+</div>
+
+
+<!--举报弹窗-->
+<div class="modal fade ms-modal" id="reportModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="report">
+                    <form action="https://app.dierna.com/EJzy" method="post">
+                        <div class="tit">举报</div>
+                        <p>
+                            作为第三方内测分发平台，我们一直致力于打击违规应用，保护用户权益。非常感谢您的举报，我们会在第一时间安排专人处理您的举报问题。感谢您对我们的支持。
+                        </p>
+                        <div class="form-group">
+                            <label>请选择举报类型<span>*</span></label>
+                            <ul class="clearfix">
+                                <li>
+                                    <span class="icon icon-radio"></span>盗版
+                                    <input type="radio" class="hidden" value="0">
+                                </li>
+                                <li>
+                                    <span class="icon icon-radio"></span>黄色
+                                    <input type="radio" class="hidden" value="1">
+                                </li>
+                                <li>
+                                    <span class="icon icon-radio"></span>欺诈
+                                    <input type="radio" class="hidden" value="2">
+                                </li>
+                                <li>
+                                    <span class="icon icon-radio"></span>其它
+                                    <input type="radio" class="hidden" value="3">
+                                </li>
+                            </ul>
+                            <div class="error">请选择举报类型</div>
+                        </div>
+                        <div class="form-group">
+                            <label>举报原因<span>*</span></label>
+                            <textarea class="form-control" rows="4" id="report-content" placeholder="补充举报原因"></textarea>
+                            <div class="error">请填写举报原因</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email<span>*</span></label>
+                            <input type="text" class="form-control" name="email" placeholder="Email" id="report-email">
+                            <div class="error">请填写有效的邮箱，可及时了解举报结果</div>
+                        </div>
+                        <div class="btn-bottom">
+                            <button data-dismiss="modal" type="button" class="ms-btn color-hover">返回下载页</button>
+                            <button type="button" class="ms-btn ms-btn-primary save">举报！</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/举报弹窗-->
+
+<!--免责声明-->
+<div class="modal fade ms-modal" id="disclaimer" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="report">
+                    <p style="padding-top:20px;link-height:10px;">平台为第三方应用提供应用反馈收集等服务。应用内容均来源于第三方产品，仅为用户提供下载支持，不涉及任何人工编辑和整理，也不对任何来源于第三方的内容（包括但不限于安装包安全、信息描述、应用截图）承担责任，用户可根据描述场景谨慎选择下载试用。</p>                                <p style="padding-top:20px;link-height:10px;">任何公司、产品或者个人认为平台涉嫌侵犯您的版权或应用权，您应该及时向我们提供举报声明、书面权利通知，并提供身份证明、权属证明及侵权情况等投诉材料。我们将依法进行处理。</p>                                <p style="padding-top:20px;link-height:10px;">应用下载者与应用上传者如发生纠纷，请自行与上传者协商处理，协商无果请到相关部门进行投诉，或者拨打110警方介入，本平台不承担责任。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/免责声明-->
+
+<!---->
+<!--<div class="one-key-report-dialog" id="reportDialog" style="display: none">-->
+<!--    <div class="dialog-close" style="cursor:pointer;padding: 10px;z-index: 999999">-->
+<!--        <a class="icon-close glyphicon glyphicon-remove">关闭</a>-->
+<!--        <a class="icon-return">&lt;&nbsp;返回下载页</a></div>-->
+<!--    <div class="report-form" id="report-form">-->
+<!--        <div class="report-error" id="report-error">-->
+<!--            <div class="email-error" style="display: none;">请填写有效的邮箱，可及时了解举报结果</div>-->
+<!--            <div class="type-error" style="display: none;">请选择举报类型</div>-->
+<!--            <div class="message-error" style="display: none;">请填写举报原因</div>-->
+<!--        </div>-->
+<!--        <div class="content-row">-->
+<!--            <label>你的邮箱</label>-->
+<!--            <input placeholder="Email" id="report-email" type="text"></div>-->
+<!--        <div class="content-row">-->
+<!--            <label>举报原因</label>-->
+<!--            <div class="checkbox-list" id="report-type">-->
+<!--                <div class="custom-checkbox">盗版</div>-->
+<!--                <div class="custom-checkbox">黄色</div>-->
+<!--                <div class="custom-checkbox">欺诈</div>-->
+<!--                <div class="custom-checkbox">其它</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="content-row">-->
+<!--            <textarea id="report-content" placeholder="补充举报原因"></textarea>-->
+<!--        </div>-->
+<!--        <div class="content-row dialog-action">-->
+<!--            <button id="submit_report" class="btn btn-sm btn-success" style="float:right">举报！</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="report-feedback" id="report-feedback" style="display: none;">-->
+<!--        <div class="feedback-thanks">-->
+<!--            <div class="brace-content">-->
+<!--                <i class="icon-brace-left"></i>-->
+<!--                <span class="face">-->
+<!--                    <i class="icon-comma-eye left"></i>-->
+<!--                    <i class="icon-comma-eye right"></i>-->
+<!--                    <i class="icon-mouth"></i>-->
+<!--                </span>-->
+<!--                <i class="icon-brace-right"></i>-->
+<!--            </div>-->
+<!--            <p class="thanks">Thanks</p></div>-->
+<!--        <div class="feedback-message">感谢你的举报</div>-->
+<!--        <div class="feedback-content">我们会尽快核实您的举报内容，将于 1-3 个工作日内处理。</div>-->
+<!--    </div>-->
+<!--    <div class="report-sending" id="report-sending">正在发送，请稍后...</div>-->
+<!--</div>--><div class="modal fade ms-modal" id="templateModal" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="template-modal">
+                    <div class="m-top" style="background-image: url(&quot;./static/img/modal-bg-2.jpg&quot;);">
+                        <div class="title1">提示</div>
+                        <div class="title2">账户尚未实名，请尽快操作实名认证</div>
+                    </div>
+                    <div class="modal-p" style="text-align: left;">建议您：<br>尽快登录第八区网站，点击右上角未实名认证，进行认证。<br>未实名认证，下载链接有效期只有24小时，只能下载5次。</div>
+                    <button type="button" class="ms-btn ms-btn-primary modal-btn modal-btn1" data-dismiss="modal">知道了</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
