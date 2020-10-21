@@ -7,7 +7,7 @@ description: >-
   Free racing game, bring you different crazy racing experience!
 image: https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/sleek.jpg
 optimized_image: >-
-  https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01install3.png
+  https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01.png
 category: racing game
 tags:
   - Games
