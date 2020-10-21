@@ -5,7 +5,7 @@ title: Driving Simulator Racing car
 subtitle: 'Racing car game! Attractive and satisfying traffic escape experience!'
 description: >-
   Racing car game! Attractive and satisfying traffic escape experience!
-image: /assets/img/uploads/sleek.jpg
+image: https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/sleek.jpg
 optimized_image: >-
   https://littlebeegame.top/assets/img/uploads/game01install2.webp
 category: racing game
@@ -18,7 +18,7 @@ author: thiagorossener
 paginate: true
 ---
 
-[![game01install.png](https://game123.co/assets/img/uploads/game01install.webp)](https://game123.co/download/com.HighwayRacingInCar.FreeRacingGame.apk)
+[![game01install.png](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01install.webp)](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
 ##   **ABOUT THE GAME:**
 Racing car game! Attractive and satisfying traffic escape experience! 

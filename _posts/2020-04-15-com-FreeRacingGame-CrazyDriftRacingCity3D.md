@@ -5,9 +5,9 @@ title: Crazy Drift Racing City 3D
 subtitle: 'Free racing game, bring you different crazy racing experience!'
 description: >-
   Free racing game, bring you different crazy racing experience!
-image: /assets/img/uploads/sleek.jpg
+image: https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/sleek.jpg
 optimized_image: >-
-  https://game123.co/assets/img/uploads/game01install3.png
+  https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01install3.png
 category: racing game
 tags:
   - Games
@@ -18,7 +18,7 @@ author: thiagorossener
 paginate: true
 ---
 
-[![game01install.png](https://game123.co/assets/img/uploads/game01install3.png)](https://littlebeegame.top/download/com.HighwayRacingInCar.FreeRacingGame.apk)
+[![game01install.png](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01install3.png)](https://littlebeegame.top/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
 ##   **ABOUT THE GAME:**
 This surprising reality limit racing game is filled with a variety of attractive elements, a lot of ultra-fast epic racing, smooth operation, exquisite graphics, a variety of challenging models make the game more interesting. Into the car, feel the real speed. High speed drift on the track designed for the car.
