@@ -18,7 +18,7 @@ author: thiagorossener
 paginate: true
 ---
 
-[![game01install.png](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01install3.png)](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/download/com.HighwayRacingInCar.FreeRacingGame.apk)
+[![game01install.png](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/assets/img/uploads/game01.png)](https://cdn.jsdelivr.net/gh/myfreegame/MyFreeGame.github.io@master/download/com.HighwayRacingInCar.FreeRacingGame.apk)
 
 ##   **ABOUT THE GAME:**
 This surprising reality limit racing game is filled with a variety of attractive elements, a lot of ultra-fast epic racing, smooth operation, exquisite graphics, a variety of challenging models make the game more interesting. Into the car, feel the real speed. High speed drift on the track designed for the car.
