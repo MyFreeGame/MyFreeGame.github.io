@@ -8,7 +8,7 @@ tags:
   - racinggame
   - freegame
   - racingincar
-email: wangxiaohua12580@gmail.com
+email: Rorschach6666@protonmail.com
 disqus_username: disqus_username
 show_hero: true
 menu:
@@ -18,6 +18,8 @@ menu:
     url: /about
   - title: Contact
     url: /contact
+  - title: privacypolicy
+    url: /privacypolicy
 
 
 # Social Media Settings
