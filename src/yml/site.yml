@@ -16,8 +16,8 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-  - title: PRIVACYPOLICY
-    url: /PRIVACYPOLICY
+  - title: privacypolicy
+    url: /privacypolicy
     
 email: Rorschach6666@protonmail.com
 disqus_username: disqus_username

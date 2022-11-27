@@ -1,8 +1,8 @@
 ---
 layout: page
-title: PRIVACYPOLICY
+title: privacypolicy
 description: Some description.
-permalink: /PRIVACYPOLICY/
+permalink: /privacypolicy/
 ---
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
